@@ -15,13 +15,13 @@ The number of pairs is n/2. I'd like to maximise students pairing with new peopl
 What this means is that there are 8 students in the class, i.e n = 8 every week.
 
 ## Output
-week 1: [[1, 2], [3, 4], [5, 6], [7, 8]]
-week 2: [[1, 3], [2, 4], [5, 7], [6, 8]]
-week 3: [[1, 4], [2, 3], [5, 8], [6, 7]]
-week 4: [[1, 5], [2, 6], [3, 7], [4, 8]]
-week 5: [[1, 6], [2, 5], [3, 8], [4, 7]]
-week 6: [[1, 7], [2, 8], [3, 5], [4, 6]]
-week 7: [[1, 8], [2, 7], [3, 6], [4, 5]]
+- week 1: [[1, 2], [3, 4], [5, 6], [7, 8]]
+- week 2: [[1, 3], [2, 4], [5, 7], [6, 8]]
+- week 3: [[1, 4], [2, 3], [5, 8], [6, 7]]
+- week 4: [[1, 5], [2, 6], [3, 7], [4, 8]]
+- week 5: [[1, 6], [2, 5], [3, 8], [4, 7]]
+- week 6: [[1, 7], [2, 8], [3, 5], [4, 6]]
+- week 7: [[1, 8], [2, 7], [3, 6], [4, 5]]
 
 # When students count changes
 
@@ -31,12 +31,12 @@ week 7: [[1, 8], [2, 7], [3, 6], [4, 5]]
 On week 2, a new student joined the class. All other weeks remain the same as week 2
 
 ## Output
-week 1: [[1, 2], [3, 4]]
-week 2: [[1, 3], [2, 5]]
-week 3: [[2, 3], [4, 5]]
-week 4: [[1, 4], [3, 5]]
-week 5: [[1, 5], [2, 4]]
-week 6: [[1, 2], [3, 4]]
+- week 1: [[1, 2], [3, 4]]
+- week 2: [[1, 3], [2, 5]]
+- week 3: [[2, 3], [4, 5]]
+- week 4: [[1, 4], [3, 5]]
+- week 5: [[1, 5], [2, 4]]
+- week 6: [[1, 2], [3, 4]]
 
 
 ## Getting Started
