@@ -7,6 +7,8 @@ The number of pairs is n/2. I'd like to maximise students pairing with new peopl
 - Rubocop
 - RSpec
 
+For this purposes, we will assume that the integers are all positive and are not sorted.
+
 # Simple Usecase
 
 ## Input
