@@ -1,4 +1,4 @@
-# Pairing Problem
+# Pairing Problem [Link to the problem](https://www.notion.so/Pairing-Problem-f79d2c5a48ac4da09f0eb2716d3a7053)
 This is a Peoplebox take home challenge 2. A class consisting of n students whom I'd like to pair up throughout the school year.
 
 The number of pairs is n/2. I'd like to maximise students pairing with new people as much as possible, and to exhaust all possible combinations. Permutations don't matter -- student 1 + student 2 is same as student 2 + student 1. Pairing happens once a week. No 2 people should meet with each other again until they have met everyone else. Also, the number of students keep changing every week
@@ -65,8 +65,13 @@ $ bundle install
 ```
 $ run: rspec
 ```
+> Run the program itself
 
-## Developed by
+```
+$ run: ruby './lib/pairing.rb'
+```
+
+## Developed by   
 
 [Raymond Oluoch](https://github.com/rOluochKe)
 

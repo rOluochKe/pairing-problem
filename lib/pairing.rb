@@ -1,14 +1,13 @@
-def brute_force_pair_sums(n, int_array)
-  a = Array(0..int_array.size - 1)
-  a.each do |i|
-    b = Array(i..int_array.size - 1)
-    b.each do |k|
-      return [int_array[i], int_array[k]] if n == int_array[i] + int_array[k]
-    end
+def possible_combinations(arr_int, number)
+  return [[]] if number.zero?
+
+  result = []
+
+  arr_int[0..(0 - number)].each_with_index do |c, i|
+    result.concat possible_combinations(arr_int[(i + 1)..-1], number - 1).map { |combo| combo.unshift(c) }
   end
-  'no possible pairs'
+
+  result
 end
 
-n = 8
-int_array = [4, 5, 5, 5, 5, 5 ]
-puts brute_force_pair_sums(n, int_array)
+p possible_combinations(arr_int = [4, 5, 5, 5, 5, 5], k = 2)
